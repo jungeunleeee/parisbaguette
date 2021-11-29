@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #023586;
+}
+
+header > .container {
+    width: 1470px;
+    height: 90px;
+    padding: 0 25px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+header > .gnb-left {
+    font-family: "Noto Sans KR", "sans-seriff";
+}
