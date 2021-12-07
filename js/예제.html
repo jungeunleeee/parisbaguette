@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://192.168.0.12:5500/sass-work/chats.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>예제</title>
+  <link href="./예제_files/reset.css" rel="stylesheet" type="text/css">
+  <link href="./예제_files/contents.css" rel="stylesheet" type="text/css">
+  <script src="./예제_files/jquery-1.8.3.min.js.다운로드"></script>
+  <!-- <script src="http://hwangsunsoo.com/lecture/ex_2/class_7_complete/js/jquery_ui.js"></script> -->
+
+</head>
+
+<body>
+
+  <div class="wrap">
+    <div class="chat_area">
+      <div class="item yourmsg on">
+        <div class="box">
+          <p class="msg">안녕하세요</p>
+          <span class="time">오전 10:06</span>
+        </div>
+      </div>
+      <!-- //item -->
+      <div class="item mymsg on">
+        <div class="box">
+          <p class="msg">네 접니다</p>
+          <span class="time">오전 10:08</span>
+        </div>
+      </div>
+      <!-- //item -->
+    </div>
+    <!-- //chat_area -->
+
+    <div class="input_area">
+      <input type="text" class="mymsg" placeholder="나의 메세지">
+      <input type="text" class="yourmsg" placeholder="상대방의 메세지">
+    </div>
+    <!-- //input_area -->
+  </div>
+
+  <script>
+      $(function(){
+        //   $('.input_area > input[type="text"]')
+        $('input_area input').keypress(function(event){
+            
+        })
+      });
+  </script>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

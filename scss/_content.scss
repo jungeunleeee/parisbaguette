@@ -1,0 +1,550 @@
+// main {
+//     margin-top: 90px;
+// }
+#main {
+    padding-top: 90px;
+
+    .main-visual {
+        width: 100%;
+        height: 793.75px;
+
+        .visual {
+            position: relative;
+
+            img {
+                height: 100%;
+                width: 635px;
+            }
+
+            button {
+                position: absolute;
+                z-index: 10;
+                top: 50%;
+                transform: trasnlateY(-50%);
+
+                .slick-next{
+                    right:0;
+                }
+
+                .slcik-prev {
+                    left: 0;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    //    content1
+    section.content1 {
+        display: block;
+
+
+        .container {
+            padding: 80px 0;
+            margin: 0 auto;
+
+
+            .first-wrap {
+                max-width: 1420px;
+                padding: 0 25px;
+                position: relative;
+                margin: 0 auto;
+
+                .inner_box1 {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h1 {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 24px;
+                        font-weight: 700;
+                        // flex: 1;
+                    }
+
+                    span {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        font-weight: 700;
+                        display: inline-block;
+                        border-bottom: 2px solid #111;
+                        letter-spacing: .05em;
+
+                    }
+
+                }
+
+                ul.pb-m {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: -12px;
+
+                    li {
+                        padding: 12px;
+
+                        li:nth-child(3) {
+                            padding-right: 0;
+                        }
+
+                        img {
+                            width: 457.33px;
+                            height: 571.66px;
+                        }
+
+                        div {
+                            display: none;
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    // content2
+    section.content2 {
+        display: block;
+
+        .container {
+            padding: 80px 0;
+
+            .second_wrap {
+                max-width: 1420px;
+                padding: 0 25px;
+                position: relative;
+                margin: 0 auto;
+
+                .inner_box2 {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h1 {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 24px;
+                        font-weight: 700;
+                        // flex: 1;
+                    }
+
+                    span {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        font-weight: 700;
+                        display: inline-block;
+                        border-bottom: 2px solid #111;
+                        letter-spacing: .05em;
+
+                    }
+                }
+
+                ul.pb-bread {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: -12px;
+
+                    img {
+                        width: 337px;
+                        height: 337px;
+                    }
+
+                    .pb-b1 {
+                        display: flex;
+                        width: 698px;
+                        height: 337px;
+                        justify-content: space-between;
+                        margin-bottom: 36px;
+                        padding: 12px;
+
+
+
+                        .left {
+                            width: 337px;
+                            height: 337px;
+
+
+                            p.pb-b1-1 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #023586;
+                                margin-bottom: 16px;
+                                line-height: 1.65;
+                            }
+
+                            strong {
+                                display: inline-block;
+                                font-family: "PB Gothic";
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1.25;
+                            }
+
+                            p.pb-b1-2 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #4a4a4a;
+                                margin-bottom: 16px;
+                                line-height: 1.575;
+                            }
+
+                            p.pb-b1-3 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 10px;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1;
+                            }
+                        }
+                    }
+
+                    .pb-b2 {
+                        display: flex;
+                        width: 698px;
+                        height: 337px;
+                        justify-content: space-between;
+                        margin-bottom: 36px;
+                        padding: 12px;
+
+                        .left {
+                            width: 337px;
+                            height: 337px;
+
+                            p.pb-b1-1 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #023586;
+                                margin-bottom: 16px;
+                                line-height: 1.65;
+                            }
+
+                            strong {
+                                display: inline-block;
+                                font-family: "PB Gothic";
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1.25;
+                            }
+
+                            p.pb-b1-2 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #4a4a4a;
+                                margin-bottom: 16px;
+                                line-height: 1.575;
+                            }
+
+                            p.pb-b1-3 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 10px;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1;
+                            }
+
+                        }
+
+                    }
+
+                    .pb-b3 {
+                        display: flex;
+                        width: 698px;
+                        height: 337px;
+                        justify-content: space-between;
+                        margin-bottom: 36px;
+                        padding: 12px;
+
+                        .left {
+                            width: 337px;
+                            height: 337px;
+
+                            p.pb-b1-1 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #023586;
+                                margin-bottom: 16px;
+                                line-height: 1.65;
+                            }
+
+                            strong {
+                                display: inline-block;
+                                font-family: "PB Gothic";
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1.25;
+                            }
+
+                            p.pb-b1-2 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #4a4a4a;
+                                margin-bottom: 16px;
+                                line-height: 1.575;
+                            }
+
+                            p.pb-b1-3 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 10px;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1;
+                            }
+
+                        }
+                    }
+
+                    .pb-b4 {
+                        display: flex;
+                        width: 698px;
+                        height: 337px;
+                        justify-content: space-between;
+                        margin-bottom: 36px;
+                        padding: 12px;
+
+                        .left {
+                            width: 337px;
+                            height: 337px;
+
+                            p.pb-b1-1 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #023586;
+                                margin-bottom: 16px;
+                                line-height: 1.65;
+                            }
+
+                            strong {
+                                display: inline-block;
+                                font-family: "PB Gothic";
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1.25;
+                            }
+
+                            p.pb-b1-2 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 14px;
+                                color: #4a4a4a;
+                                margin-bottom: 16px;
+                                line-height: 1.575;
+                            }
+
+                            p.pb-b1-3 {
+                                font-family: "Noto Sans KR", "sans-serif";
+                                font-size: 10px;
+                                color: #111111;
+                                margin-bottom: 16px;
+                                line-height: 1;
+                            }
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }    
+
+    //content3
+    section.content3 {
+        display: block;
+
+        .container {
+            padding: 80px 0;
+
+            .third_wrap {
+                max-width: 1420px;
+                padding: 0 25px;
+                position: relative;
+                margin: 0 auto;
+
+                .inner_box3 {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h1 {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 24px;
+                        font-weight: 700;
+                        // flex: 1;
+                    }
+
+                    span {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        font-weight: 700;
+                        display: inline-block;
+                        border-bottom: 2px solid #111;
+                        letter-spacing: .05em;
+
+                    }
+                }
+                //ineerbox 여기까지
+                .promotion {
+                    position: relative;
+
+                   
+                        img {
+                            width: 337px;
+                            margin-bottom: 18px;
+                        }
+
+                        span.top {
+                            position: absolute;
+                            padding: 4px 8px;
+                            font-size: 10px;
+                            color: #ffffff;
+                            font-family: "Noto Sans KR", "sans-serif";
+                            font-weight: 500;
+                            background-color: #023586;
+                        }
+
+
+                        span.bottom {
+                            color: #888888;
+                            font-family: "Noto Sans KR", "sans-serif";
+                            font-size: 12px;
+                        }
+
+                        .desc {
+                            width: 337px;
+                            height: 81px;
+
+                            
+                            strong {
+                                padding: 4px 0 10px;
+                                display: block;
+                                font-family: "PBGothic";
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 1.44;
+                            }
+                        }
+                    
+
+                    button {
+                        position: absolute;
+                        z-index: 10;
+                        top: 50%;
+                        transform: trasnlateY(-50%);
+
+                    }
+                }
+            }
+        }
+    }        
+
+    // content4: product
+    section.content4 {
+        display: block;
+
+        .container {
+            padding: 80px 0;
+
+            .forth_wrap {
+                max-width: 1420px;
+                padding: 0 25px;
+                position: relative;
+                margin: 0 auto;
+            
+
+                .inner_box4 {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h1 {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 24px;
+                        font-weight: 700;
+                        // flex: 1;
+                    }
+
+                    span {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        font-weight: 700;
+                        display: inline-block;
+                        border-bottom: 2px solid #111;
+                        letter-spacing: .05em;
+                    }
+
+                }
+
+                .products {
+                    position: relative;
+                 
+
+
+                    img {
+                        width: 223.19px;
+                    }
+
+
+                    strong {
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #111111;
+                    }
+
+                    span {
+                        display: block;
+                        font-family: "Noto Sans KR", "sans-serif";
+                        font-size: 14px;
+                        color: #888888;
+                        line-height: 1.5;
+                        margin: 8px 0 0;
+                        
+                    }
+                }
+
+                //
+            }
+        }
+    }
+    section.content5 {
+        display: block;
+
+        .container {
+            padding: 80px 0;
+
+            .inner_box5 {
+                position: relative;
+                align-items: baseline;
+                display: flex;
+                justify-content: center;
+             
+
+                h1 {
+                    justify-content: center;
+                    
+             
+                }
+
+                p {
+                
+                  
+                }
+            }
+        }
+    }
+
+
+
+  //
+}
+
+                    
+        
