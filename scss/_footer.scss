@@ -1,0 +1,63 @@
+#footer {
+    display: block;
+    background-color: #454A56;
+
+    .container {
+        width: 1240px;
+        padding: 0 25px;
+        position: relative;
+        margin: 0 auto;
+
+        .widgets {
+            padding: 70px 0;
+            display: flex;
+
+            .footer-widjet {
+                flex: 1;
+                margin-bottom:20px;
+                padding-right: 20px;
+
+                .footer-logo {
+                    :nth-child(1){
+                        display: block;
+                        height: 40px;
+                        margin: 0 10px 20px 0;
+                    }
+                    :nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5),:nth-child(6) {
+                        display: inline-block;
+                        margin-bottom: 20px;
+                        height: 34px;
+                        margin-right: 10px;
+                    }
+                   
+                }
+
+                h1 {
+                    font-family: "PBGothic";
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    margin-bottom: 20px;
+                }
+
+                ul.f-list {
+
+                    li {
+                        margin-bottom: 15px;
+                        font-size: 14px;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        .copy {
+           width: 100%;
+            text-align: center;
+            font-size: 11px;
+            color: #999;
+            border-top: 1px solid rgba(255,255,255,.25);
+            padding: 8px 12px;
+        }
+    }
+}

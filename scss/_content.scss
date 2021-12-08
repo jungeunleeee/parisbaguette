@@ -541,9 +541,57 @@
         }
     }
 
-
-
   //
+
+
+   section.content6 {
+       display: block;
+
+       .container {
+           padding-top: 80px;
+           display: flex;
+           flex-wrap: wrap;
+
+           a {
+               flex: 1;
+               position: relative;
+               padding: 50px 100px 50px 50px;
+
+               h3 {
+                   margin: 0 0 16px;
+                   font-weight: bold;
+                   font-size: 14px;
+                   color: #1E73BE;
+               }
+
+               .ims {
+                   display: flex;
+
+                   strong {
+                       display: block;
+                       font-weight: 700;
+                       line-height: 1.33;
+                   }
+
+                   i {
+                       display: block;
+                       padding-left: 20px;
+                   }
+
+               }
+           }
+
+           .line {
+               border-left: 1px solid #023586;
+               height: 83px;
+               margin-top: 50px;
+           }
+
+       }
+
+    }
+       //footer
+       //
 }
 
                     

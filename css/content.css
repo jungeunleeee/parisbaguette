@@ -680,4 +680,118 @@ header .mega-menu img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+#main section.content6 {
+  display: block;
+}
+
+#main section.content6 .container {
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main section.content6 .container a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  padding: 50px 100px 50px 50px;
+}
+
+#main section.content6 .container a h3 {
+  margin: 0 0 16px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1E73BE;
+}
+
+#main section.content6 .container a .ims {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main section.content6 .container a .ims strong {
+  display: block;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+#main section.content6 .container a .ims i {
+  display: block;
+  padding-left: 20px;
+}
+
+#main section.content6 .container .line {
+  border-left: 1px solid #023586;
+  height: 83px;
+  margin-top: 50px;
+}
+
+#footer {
+  display: block;
+  background-color: #454A56;
+}
+
+#footer .container {
+  width: 1240px;
+  padding: 0 25px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#footer .container .widgets {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .container .widgets .footer-widjet {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+#footer .container .widgets .footer-widjet .footer-logo :nth-child(1) {
+  display: block;
+  height: 40px;
+  margin: 0 10px 20px 0;
+}
+
+#footer .container .widgets .footer-widjet .footer-logo :nth-child(2), #footer .container .widgets .footer-widjet .footer-logo :nth-child(3), #footer .container .widgets .footer-widjet .footer-logo :nth-child(4), #footer .container .widgets .footer-widjet .footer-logo :nth-child(5), #footer .container .widgets .footer-widjet .footer-logo :nth-child(6) {
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+#footer .container .widgets .footer-widjet h1 {
+  font-family: "PBGothic";
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#footer .container .widgets .footer-widjet ul.f-list li {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#footer .container .copy {
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 8px 12px;
+}
 /*# sourceMappingURL=content.css.map */
